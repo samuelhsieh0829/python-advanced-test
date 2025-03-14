@@ -1,3 +1,4 @@
+print("Module loaded")
 class moduleA:
     def __init__(self, arg:int=5):
         if self.check_arg(arg) == False:

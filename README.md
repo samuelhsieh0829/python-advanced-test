@@ -20,6 +20,7 @@ if __name__ == "__main__":
 ```
 範例輸出:
 ```
+Module loaded
 Module initualized
 Module initualized
 Hello 0
