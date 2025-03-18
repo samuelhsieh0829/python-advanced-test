@@ -22,7 +22,7 @@ def main():
     obj5.methodB()
     obj.methodC(3) # 正常值
     obj1.methodC(-69) # 負數
-    # obj2.methodC() # 無參數
+    obj2.methodC() # 無參數
     obj3.methodC(0) # 0
     obj4.methodC(0.5) # 浮點數
     obj5.methodC("WTF") # 字串

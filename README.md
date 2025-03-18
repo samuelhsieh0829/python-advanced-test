@@ -13,7 +13,7 @@ def main():
     obj1.methodB()
     obj2.methodB()
     obj1.methodC(3)
-    obj2.methodC(2)
+    obj2.methodC()
 
 if __name__ == "__main__":
     main()

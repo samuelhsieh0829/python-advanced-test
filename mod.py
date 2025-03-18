@@ -38,7 +38,7 @@ class moduleA:
         for i in range(arg):
             self.methodB()
 
-    def check_arg(self, arg):
+    def check_arg(self, arg=2):
         if isinstance(arg, int) == False:
             return False
         return True
