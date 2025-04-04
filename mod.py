@@ -28,7 +28,7 @@ class moduleA:
     def methodB(self):
         print("Count:", self.count)
 
-    def methodC(self, arg:int):
+    def methodC(self, arg:int=2):
         if self.check_arg(arg) == False:
             print("arg is not int")
             return
@@ -38,7 +38,21 @@ class moduleA:
         for i in range(arg):
             self.methodB()
 
-    def check_arg(self, arg=2):
+    def check_arg(self, arg):
         if isinstance(arg, int) == False:
             return False
         return True
+
+def main():
+    obj1 = moduleA(int(input())) #2
+    obj2 = moduleA() #default
+    for i in range(int(input())): #2
+        obj1.methodA()
+        obj2.methodA()
+    obj1.methodB()
+    obj2.methodB()
+    obj1.methodC(int(input())) #3
+    obj2.methodC() #default
+
+if __name__ == "__main__":
+    main()

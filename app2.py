@@ -1,13 +1,13 @@
-import mod
+from mod import moduleA
 
 def main():
-    obj = mod.moduleA(6) # 正常值
-    obj1 = mod.moduleA(-100) # 負數
-    obj2 = mod.moduleA() # 預設值
-    obj3 = mod.moduleA(0) # 0
-    obj4 = mod.moduleA(0.5) # 浮點數
-    obj5 = mod.moduleA("WTF") # 字串
-    for i in range(2):
+    obj = moduleA(6) # 正常值
+    obj1 = moduleA(-100) # 負數 2%
+    obj2 = moduleA() # 預設值
+    obj3 = moduleA(0) # 0 2%
+    obj4 = moduleA(7.122) # 浮點數 2%
+    obj5 = moduleA("WTF") # 字串 2%
+    for _ in range(2):
         obj.methodA()
         obj1.methodA()
         obj2.methodA()
@@ -21,12 +21,12 @@ def main():
     obj4.methodB()
     obj5.methodB()
     obj.methodC(3) # 正常值
-    obj1.methodC(-69) # 負數
-    obj2.methodC() # 無參數
-    obj3.methodC(0) # 0
-    obj4.methodC(0.5) # 浮點數
-    obj5.methodC("WTF") # 字串
-    obj.count = "WTF" #更改屬性 非法count
+    obj1.methodC(-69) # 負數 2%
+    obj2.methodC() # 預設值
+    obj3.methodC(0) # 0 2%
+    obj4.methodC(8.7) # 浮點數 2%
+    obj5.methodC("WTF") # 字串 2%
+    obj.count = "WTF" #更改屬性 非法count 2%
     obj.methodA()
 
 if __name__ == "__main__":
