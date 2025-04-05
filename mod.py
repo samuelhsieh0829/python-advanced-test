@@ -1,4 +1,3 @@
-print("Module loaded")
 class moduleA:
     def __init__(self, arg:int=5):
         self.arg = arg
