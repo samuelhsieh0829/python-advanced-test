@@ -8,7 +8,7 @@ class moduleA:
         if arg <= 0:
             print("arg is less than 1")
             return
-        print("Module initualized")
+        print("Module initialized")
 
     def methodA(self):
         if self.check_arg(self.arg) == False:

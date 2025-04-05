@@ -28,8 +28,8 @@ if __name__ == "__main__":
 
 範例輸出:
 ```
-Module initualized
-Module initualized
+Module initialized
+Module initialized
 Hello 0
 Hello 1
 Hello 0
@@ -56,7 +56,7 @@ Count: 10
 - 此為一個類別
 - 將此類別實例化時，可以接收一個參數並儲存為屬性arg
 - 初始化另一個屬性count為0
-- 透過print出Module initualized表示初始化完成
+- 透過print出Module initialized表示初始化完成
 
 ## moduleA.methodA
 - 此為moduleA中第一個方法
