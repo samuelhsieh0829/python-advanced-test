@@ -87,8 +87,8 @@ Count: 10
 ## 知識點
 - for迴圈
 - 函式
+- 物件導向程式設計
 - class
-- 自製模組
 - https://slides.com/samuelhsieh/python
 
 ## 提示
