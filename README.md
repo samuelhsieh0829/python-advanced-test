@@ -5,19 +5,22 @@
 
 # (定義moduleA)
 
-def main():
-    obj1 = moduleA(2) #A
+def main(A, B, C):
+    obj1 = moduleA(A) #2
     obj2 = moduleA() #預設值
-    for i in range(2): #B
+    for i in range(B): #2
         obj1.methodA()
         obj2.methodA()
     obj1.methodB()
     obj2.methodB()
-    obj1.methodC(3) #C
+    obj1.methodC(C) #3
     obj2.methodC() #預設值
 
 if __name__ == "__main__":
-    main()
+    A = int(input())
+    B = int(input())
+    C = int(input())
+    main(A, B, C)
 ```
 以上程式之範例輸入:
 ```
